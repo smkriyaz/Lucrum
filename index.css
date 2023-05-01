@@ -1,0 +1,402 @@
+/* nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  padding: 5px;
+}
+
+.luc {
+  margin-left: 10px;
+}
+
+/* Style for the container */
+/* .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8A2BE2; /* awesome purple color */
+  /* padding: 20px;
+  color: white; */ */
+/* } */ */
+
+/* Style for the image */
+.img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+/* Style for the navigation links */
+
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links a {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+.top {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.top:hover {
+  color: #006699;
+}
+
+.home {
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+h1{
+    text-align: center;
+}
+.home{
+    
+}
+
+.stackimage{
+    background:url(./businessmen-elegant-suits-business-meeting-discussing-new-project-office\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    
+}
+
+.navbar{
+  background-color: #0077c2;
+}
+.top{
+    margin-top: 20px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    /* margin-right: 190px; */
+    margin-left: 20px;
+    
+    
+    
+
+}
+.luc{
+    margin-left:30px;
+}
+
+h1{
+    color: black;
+}
+.button {
+  position: absolute;
+  top:30%;
+  background-color:#0a0a23;
+  color: #fff;
+  border:none; 
+  border-radius:10px; 
+  padding:15px;
+  /* min-height:30px; 
+  min-width: 120px; */
+  margin-left: 700px;
+   margin-top: 100px; 
+   border-style: none;
+   text-decoration: none;
+}
+
+.button:hover {
+  background-color:#002ead;
+  transition: 0.7s;
+}
+
+h1:hover{
+color:white;
+}
+
+/* Default styles */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color:whitesmoke;
+}
+
+.top {
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: 60px;
+}
+
+.luc {
+  margin-left: 30px;
+}
+
+h1 {
+  color: black;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-left: 700px;
+  margin-top: 30px;
+  border-style: none;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
+
+h1:hover {
+  color: white;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Styles for screens up to 480px wide */
+
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .top {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .luc {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+
+  .button {
+  
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+   
+    margin-top: 350px;
+    /* margin-bottom: 100px; */
+    margin-left: 100px;
+    border-style: none;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #002ead;
+    transition: 0.7s;
+  }
+  .stackimage{
+    width:100%;
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    justify-content: center;
+     margin-left: 100px; 
+    margin-right: 100px;
+}
+.luc{
+    margin-left: 0px;
+   
+}
+.home{
+    margin-right: 800px;
+}
+a{
+    margin-top: 200px;
+}
+
+
+}
+@media (min-width: 375px) and (max-width: 667px) {
+
+    .button{
+        margin-top: 400px;
+    }
+    nav{
+      background-color: white;
+    }
+
+}
+@media (min-width: 414px) and (max-width: 896px) {
+    .button{
+        position: absolute;
+        top:5px;
+        margin-top: 740px;
+    }
+    nav{
+      background-color: white;
+    }
+
+}
+
+@media (min-width: 412px) and (max-width: 915px) {
+    .button{
+        position: absolute;
+        top:5px;
+        margin-top: 740px;
+    }
+    nav{
+      background-color: white;
+    }
+
+
+}
+
+
+
+@media (min-width: 820px) and (max-width: 1180px) {
+    nav{
+      display:flex ;
+      flex-direction: column;
+      text-align: center;
+      justify-content: start;
+      margin-right: 150px;
+    }
+    .luc{
+      margin-left: 300px;
+    }
+    .button{
+        position: absolute;
+        right: 140px;
+        margin-top: 650px;
+        margin-right: 230px;
+        margin-left: 10px;
+       }
+       .home{
+           position: fixed;
+           right: 50%;
+           margin-top: 60px;
+           margin-right: 60px;
+   
+   
+   
+       }
+       .top{
+           padding-top: px;
+       }
+       .stackimage{
+           background:url(./businessmen-elegant-suits-business-meeting-discussing-new-project-office\ \(1\).jpg);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           width: 90%;
+       }
+       nav{
+        background-color: white;
+      }
+       
+     }
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    nav{
+      display:flex ;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-between;
+      margin-right: 150px;
+      background-color:antiquewhite;
+    }
+    .luc{
+      margin-left: 280px;
+    }
+    .button{
+     position: absolute;
+     right: 140px;
+     margin-top: 650px;
+     margin-right: 230px;
+     margin-left: 10px;
+    }
+    .home{
+        position: fixed;
+        right: 50%;
+        margin-top: 60px;
+        margin-right: 40px;
+
+
+
+    }
+    .top{
+        padding-top: px;
+    }
+    .stackimage{
+        background:url(./businessmen-elegant-suits-business-meeting-discussing-new-project-office\ \(1\).jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+    }
+    nav{
+      background-color: white;
+    }
+    
+  }
+
+  @media (min-width: 912px) and (max-width: 1368px) {
+    nav{
+      display:flex ;
+      flex-direction: column;
+      text-align: center;
+      justify-content: start;
+      margin-right: 150px;
+    }
+    .luc{
+      margin-left: 300px;
+    }
+    .button{
+     position: absolute;
+     right: 140px;
+     margin-top: 650px;
+     margin-right: 180px;
+     margin-left: 20px;
+    }
+    nav{
+      background-color: white;
+    }
+    
+  }
+

@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="contactus">
+
+          <div class="message">Your Message sent</div>
+      
+          <label for="fname">First Name</label>
+          <input required type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input required type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="lname">Contact Number</label>
+          <input required type="text" id="cnumber" name="lastname" placeholder="Mobile Number..">
+          <label for="lname">Email</label>
+          <input required type="text" id="email" name="lastname" placeholder="@gmail.com">
+      
+          <label for="country">State</label>
+          <select id="country" name="country">
+            <option value="australia">Tamilnadu</option>
+            <option value="canada">AndhraPradesh</option>
+            <option value="usa">Karnataka</option>
+            <option value="">Telangana</option>
+            <option value="">Kerala</option>
+          </select>
+          <label for="lname">Address:</label>
+          <input required type="text" id="address" name="lastname" placeholder="">
+      
+          <label for="subject">Describe about your Business and problem you are currently facing ....</label>
+          <textarea id="subject"  name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+         
+            <button  type="submit" class="input2">CONTACTUS</button>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+            <script src="./contact.js"></script>
+          
+      
+        </form>
+      </div>
+      
+      
+      <style>
+        
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+.input2 {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.message{
+  width: 100%;
+  background-color: rgb(108, 202, 108);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  display: none;
+}
+      </style>
+</body>
+</html>
